@@ -1,0 +1,33 @@
+/* Seletor de elemento */
+body {
+    background-color: #44440f;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.titulo1{
+    padding-bottom: 30px;
+
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color:bisque;
+    padding: 10px;
+    background-color: #30302e;
+    border-radius: 8px;
+    border: solid 3px black;
+}
+
+.unico{
+    background-color: #f8f8f3;
+    color:#44440f;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100px;
+}
+
