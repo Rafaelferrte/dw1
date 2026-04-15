@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Seletor de elemento */
 body {
     background-color: #44440f;
@@ -29,5 +31,37 @@ p{
     border-radius: 8px;
     text-align: center;
     height: 100px;
+}
+
+.cont{
+    margin: 50px 0;
+    padding: 40px 20px;
+    background-color: #f8f8f3;
+    color:#44440f;
+    border-radius: 8px;
+}
+
+.cont h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color:#2539ad
+}
+
+.cont p{
+    font-size: 16px;
+    border: none;
+    background-color: #f8f8f3;
+    font-family: "Montserrat", sans-serif;
+    color:rgb(19, 18, 18);
+    
+}
+
+.cont button{
+    background-color: #dbad15;
+    color:#f8f8f3;
+    padding: 8px 14px;
+    border-style: none;
+    border-radius: 4px;
 }
 
