@@ -1,60 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Inicial</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        header{
-            padding: 50px 40px 30px 40px;
-        }
+ 
 
-        main{
-            padding: 50px 40px 30px 40px;
+    <style>
+        header h2 {
+            font-family: 'Georgia', serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: #a0c4b8;
+            letter-spacing: 0.08em;
+            margin-top: 0.5rem;
         }
     </style>
 </head>
-
 <body>
+ 
+ 
     <header>
-        <h1 >Meu Portfólio Inicial</h1>
-
-        <h2>Programador Back-end Java 💻</h2>
-
-        <p style="font-size: 25px;">Esta página é um portifólio sobre os projetos que eu já desenvolvi, que aborda preferencialmente sistemas que
-            trazem soluções para problemas reais e utiliza ferramentas apropriadas para cada solução.</p>
-
-        <img src="https://i.pinimg.com/736x/90/91/63/90916340b11772058c3e8d34611cb149.jpg" alt="Imagem exemplo">
+        <h1>Meu Portfólio Inicial</h1>
+        <h2>Desenvolvedor Web em formação · Apaixonado por código</h2>
+      
+        <p style="color: #c8d8d0; font-size: 0.95rem; max-width: 520px; margin: 1rem auto 0; line-height: 1.7;">
+            Esta página foi criada para apresentar meu perfil, minhas habilidades e meu percurso
+            no desenvolvimento web. Seja bem-vindo(a)!
+        </p>
     </header>
-
-    <main class="cont-principal">
-        
-        <section>
-            <h3 id="subtitulo">Minha experiência</h3>
-            <p>Atua na área já fazem 4 anos e já participei de muitos projetos curriculares e extras, além de
-                desenvolver sistema funcionais que buscam a solução de problemas server side, manipulando dados, funções
-                e objetos.</p>
-
-            <h4>Tecnologias:</h4>
-            <ul>
-                <li>Java</li>
-                <li>Programação Orientada a Objetos</li>
-                <li>Python</li>
-                <li>PostgreeSQL</li>
+ 
+  
+    <main>
+ 
+     
+        <section class="secao-sobre">
+            <h3 id="titulo-sobre">Sobre mim</h3>
+ 
+            <p>
+                Sou estudante de Desenvolvimento Web, movido pela curiosidade e pelo desejo de
+                transformar ideias em interfaces funcionais e agradáveis. Adoro aprender novas
+                tecnologias e resolver problemas de forma criativa.
+            </p>
+ 
+            <ul class="lista-interesses">
+                <li>Desenvolvimento Front-end com HTML, CSS e JavaScript</li>
+                <li>Boas práticas de semântica e acessibilidade web</li>
+                <li>Design de interfaces limpas e intuitivas</li>
+                <li>Versionamento de código com Git e GitHub</li>
             </ul>
         </section>
-        <hr border="2">
-        <section>
-            <h3>Habilidade</h3>
-            <p></p>
+ 
+     
+        <section class="secao-habilidades">
+            <h3>Habilidades</h3>
+ 
+            <div class="habilidades-grid">
+ 
+                <div class="habilidade">
+                    <h4>HTML5</h4>
+                    <p>
+                        Estruturação semântica de páginas web utilizando as tags corretas para
+                        cada contexto, garantindo acessibilidade e SEO.
+                    </p>
+                </div>
+ 
+                <div class="habilidade">
+                    <h4>CSS3</h4>
+                    <p>
+                        Estilização de interfaces com seletores avançados, pseudo-classes,
+                        pseudo-elementos, Flexbox e animações CSS.
+                    </p>
+                </div>
+ 
+                <div class="habilidade">
+                    <h4>JavaScript</h4>
+                    <p>
+                        Lógica de programação aplicada ao navegador: manipulação do DOM,
+                        eventos e interatividade nas páginas.
+                    </p>
+                </div>
+ 
+                <div class="habilidade">
+                    <h4>Git &amp; GitHub</h4>
+                    <p>
+                        Controle de versão de projetos, criação de branches e colaboração
+                        em repositórios públicos e privados.
+                    </p>
+                </div>
+ 
+            </div>
         </section>
+ 
+    
+        <section class="secao-contato">
+            <h3>Contato</h3>
+            <p>Deixe seu e-mail para entrarmos em contato:</p>
+            <input type="email" placeholder="seu@email.com">
+ 
+            <p class="link-github-label">Acesse meu repositório:</p>
+            <a href="https://github.com/Rafaelferrte" target="_blank">Ver meu GitHub</a>
+        </section>
+ 
     </main>
+ 
 
     <footer>
-        <p></p>
+        <p id="footer-titulo">Portfólio Inicial</p>
+        <p>&copy; 2025 · Todos os direitos reservados</p>
     </footer>
+ 
 </body>
-
 </html>
